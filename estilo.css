@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(22, 16, 61);
+    margin:0;
+    font-family: Arial;
+}
+
+header{
+    background-color: rgb(245, 215, 170);
+    padding: 2rem;
+    text-align: center;
+} 
+
+header h1{
+    color:rgb(22, 16, 61);
+    font-family:'Courier New', Courier, monospace
+}
+
+nav{
+    background-color: rgb(165, 99, 226);
+    padding: 1rem;
+}
+
+li a{
+    margin: auto;
+    color:rgb(185, 239, 255);
+    text-decoration: none;
+    background-color: rgb(106, 52, 156);
+    border-radius: 5px;
+    padding: 0.5rem;
+
+}
+
+li a:hover{
+    color:rgb(255, 223, 119);
+    background-color: rgb(58, 17, 95);
+}
+
+ul li{
+    padding: 1rem;
+    list-style: none;
+}
+
+nav ul{
+    padding: 0;
+    display: flex;
+}
+
+
+.container{
+    margin: auto;
+    margin-top: 2rem;
+    max-width: 60%;
+    padding: 2rem;
+    display: flex;
+    flex-direction:column;
+    background-color: rgb(219, 229, 233);
+    border-radius: 10px;
+
+}
+
+.container h3{
+    color:rgb(18, 2, 36);
+    text-align: center;
+
+}
+
+.container input{
+margin-bottom: 0.5rem;
+border: 2px solid rgb(31, 5, 61);
+border-radius: 5px;
+padding: 0.5rem;
+outline:none;
+}
+
+.container input:hover{
+    background-color: rgb(234, 203, 255);
+}
+
+.container button{
+    background-color: rgb(253, 205, 239);
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+.container button:hover{
+background-color: rgb(223, 153, 202);
+
+}
+
+footer {
+color:rgb(119, 99, 143);
+margin-top: 2rem;
+border-top: 2px solid;
+}
+
+footer ul {
+  padding: 0px
+}
+
+.footer-li{
+    padding: 0;
+}
+
+th{
+    background-color: rgb(19, 11, 39);
+    border-radius: 15px;
+    color:rgb(223, 218, 230);
+    padding: 1rem;
+}
+
+td{
+    border: 3px solid rgb(12, 6, 20);
+    border-radius: 20px;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+img{
+    width: 10px;
+
+}
+
+
+
+
+
